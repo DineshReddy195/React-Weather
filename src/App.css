@@ -1,0 +1,142 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  background-color: #4472C4;
+  color:#ffffff;
+  text-align: center;
+  padding: 5px;
+}
+.cities{
+  margin-top: 15px;
+}
+.button{
+   color: #ffffff;
+    background-color:#4472C4 ;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+.list{
+  margin-top: 10px;
+  border: 1px solid #000000;
+  margin-left: 70px;
+}
+.menu{
+  border-right: 5px solid #000000;
+  height: 530px;
+    text-align: center;
+}
+.info{
+  border: none;
+  background-color: #4472C4;
+  color: #ffffff;
+  padding: 10px;
+}
+.city{
+  border-top:1px solid #000000;
+  padding: 15px;
+  width: 60px;
+}
+.text::placeholder{
+  font-size: medium;
+  color: #000000;
+}
+.text{
+  border-radius: 7px;
+  border: 1px solid #4472C4;
+  outline: none;
+  height: 30px;
+}
+.search{
+  color: #ffffff;
+  background-color:#4472C4 ;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+}
+.cities{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.input{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 240px;
+  margin-bottom: 15px;
+}
+.city{
+  border-bottom: 4px solid #000000;
+  padding: 15px;
+  width: 120px;
+ }
+ .city1{
+  border-bottom: 4px solid #000000;
+  padding: 15px;
+  width: 120px;
+ }
+ .city2{
+  border-bottom: 4px solid #000000;
+  padding: 15px;
+  width: 120px;
+ }
+ .city3{
+  border-bottom: 4px solid #000000;
+  padding: 15px;
+  width: 120px;
+ }
+ .t{
+  border-bottom: 1px solid black;
+  width: 30px;
+  border: 2px solid green;
+}
+.t0{
+  border-bottom: 1px solid black;
+  width: 30px;
+  padding: 10px;
+}
+td{
+  border-bottom: 4px solid #000000;
+ padding: 15px;
+}
+table{
+  /* border: 1px solid #000000; */
+  margin-top: 5px;
+  margin-left: 70px;
+}
+.head{
+  background-color: #4472C4;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border: none;
+  width: 130px;
+  border-right:1px solid #ffffff;
+}
+.h1{
+  text-align: center;
+}
+.head1{
+  color: #000000;
+  border: 1px solid black;
+  padding: 10px;
+  border: none;
+  width: 130px;
+  border-right:1px solid #000000;
+}
+.delete{
+  color: #4472C4;
+  text-decoration: underline;
+  font-weight:normal;
+  cursor: pointer;
+}
+.desc{
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+}
